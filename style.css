@@ -1,0 +1,320 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color:  #151A42;
+    height: 100vh;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Impostazioni TopBar Epicode */
+
+.topbar{
+   background-color: #151A42;
+   padding: 0 5%;
+   display: flex;
+   justify-content: space-between;
+   
+}
+div.topbar > img{
+    height: 50px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+
+}
+div.menu > span{
+    color: white;
+    margin-left: 30px;
+}
+#italy{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+#candidati{
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+}
+
+/* Blocco di sinistra */
+
+.conteiner{
+    display: flex;
+    padding: 0 5%;
+}
+#left{
+    width: 50%;
+    background-color:  #151A42;
+
+}
+div#left > h1{
+    font-size: 60px;
+    color: white;
+    margin: 30px 0;
+}
+div#left > p {
+    color: white;
+    margin: 30px 0;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+}
+div#left > ul{
+    color: white;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+div#left > button {
+    background-color: aqua;
+    padding: 15px;
+    width: 150px;
+    border-radius: 10px;
+    color: black;
+    margin-top: 30px;
+}
+
+
+/* Blocco di  destra */
+
+#right{
+    width: 50%;
+    background-color:  #151A42;
+    margin-left: 50px;
+
+}
+#ragazzi{
+    height: 560px;
+    position: absolute;
+}
+#retro_logo{
+    position: absolute;
+    height: 560px;
+}
+
+/* Seconda Pagina */
+ .blocco1{
+
+    margin-top: 100px;
+    text-align: center;
+ }
+ div.blocco1 > h1{
+    color: white;
+ }
+ div.blocco1 >  p{
+    margin: 30px;
+    color: white;
+ }
+ .quattro{
+
+   margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+ }
+ .riquadro{
+     border: 4px solid transparent;
+    color: white;
+     background: linear-gradient(45deg, rgba(17,18,42,1) 0%, rgba(24,30,77,1) 100%)
+      padding-box, linear-gradient(90deg, rgba(45,39,222,1) 0%, rgba(202,35,118,1) 100%) border-box;
+    width: 300px;
+    height: 180px;
+    border-radius: 20px;
+
+ }
+
+.riquadri_top{
+    display: flex;
+    align-items: center;
+
+}
+.riquadri_top .number{
+    font-size: 3em;
+    color: fuchsia;
+    margin: 20px;
+    
+}
+.title{
+    font-size: 100;
+}
+div.blocco1 > button{
+    
+    background-color: aqua;
+    padding: 15px;
+    border-radius: 10px;
+    color: black;
+    margin-top: 80px;
+    font-weight: bold;
+}
+
+/* Terza Pagina */
+.blocco2{
+    margin-top: 100px;
+    text-align: center;
+}
+
+div.blocco2 > h1{
+   color: white;
+}
+div.blocco2 >  p{
+   margin: 30px;
+   color: white;
+}
+.sei{
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.date{
+    height: 250px;
+    width: 400px;
+    border: 1px solid white;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: white;
+}
+div.date > h2{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    
+}
+div.date > p{
+    
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: rgb(77, 74, 74);
+    
+}
+#testo_pink{
+    color: rgb(151, 0, 151);
+    margin-top: 30px;
+    font-weight: bolder;
+}
+div.date > button {
+    display: flex;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: rgb(151, 0, 151);
+    color: white;
+    margin-left: 150px;
+}
+/* Quarta Pagina: il forum */
+
+.blocco3{
+    margin-top: 100px;
+    width: 100%;
+    height: 700px;
+     display: flex;
+    
+}
+.domande{
+    color: white;
+    background-color: rgb(32, 33, 119);
+    width: 50%;
+    padding: 60px; 
+}
+.testo{
+    margin: 30px 0;
+}
+.testo1{
+    margin: 30px 0;
+    font-size: 40px;
+    
+}
+#testo2{
+    font-weight: bold;
+}
+/* Impostazioni del Forum */
+.forum{
+    width: 50%;  
+    background-color: rgb(32, 33, 119);
+    color: white;
+    
+}
+
+div.input > input{
+    height: 40px;
+    border-radius: 5px;
+    width: 250px;
+    margin: 10px;
+}
+.dati{
+   
+    margin-top: 50px; 
+    display: flex;  
+    flex-wrap: wrap;   
+    margin-left: 90px;
+}
+
+
+div.forum > p{
+    margin: 20px 100px;
+}
+li{
+    display: flex;
+    align-items: center;
+    margin-left: 100px; 
+    padding: 5px;
+}
+div.selezione > ul>li >input{
+    margin-right: 5px;
+}
+div.eta > select{
+    width: 500px;
+    height: 40px;
+    margin-left: 100px;
+}
+div.diploma > select{
+    width: 500px;
+    height: 40px;
+    margin-left: 100px;
+}
+a{
+    color: blue;
+    
+}
+#privacy{
+   margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 5px;
+}
+div.forum > button{
+    background-color: aqua;
+    padding: 15px;
+    border-radius: 10px;
+    color: black;
+    font-weight: bold;
+    margin-left: 300px;
+    margin-top: 30px;
+    width: 100px;
+    
+}
+/* Pagina 4 con le azinede */
+div.blocco4 > h1 {
+    text-align: center;
+    margin-top: 200px;
+    color: white;
+}
+.aziende{
+    display: flex;
+    width: 700px;
+    justify-content: space-between;
+    padding: 30px;
+    align-items: center;
+    margin-left: 350px;
+
+}
+div.aziende img {
+    width: 100px;
+    height: 50px;
+    margin-top: 30px;
+}
+
