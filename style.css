@@ -374,7 +374,7 @@ div.epicode > img{
 .social{
   width: 40%;
   height: 500px;
-  background-color: rgb(128, 0, 0);
+  
 }
 /* Lista corsi sencondo conteiner */
 div.collegamenti > ul > li > a{
@@ -385,3 +385,16 @@ div.collegamenti > ul{
 }
 /* conteiner Social */
 
+div.social{
+    text-align: center;
+    color: white;
+    margin-top:40px;
+}
+.social > p{
+    padding:5px;
+}
+.social > i{
+    width: 10px;
+    height: 10px;
+    margin: 5px;
+}
